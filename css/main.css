@@ -1,0 +1,65 @@
+@font-face {
+    src: url("../fonts/Kanit-Light.ttf");
+    font-family: "Kanit";
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/notebook.png");
+    zoom: 1.5;
+}
+
+body, button, input {
+    font-family: "Kanit";
+}
+
+.title {
+    text-align: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #38388a;
+}
+
+.input-box {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px 4px #1f1c1c1a;
+}
+
+.centered {
+    text-align: center;
+    margin: 0 auto;
+}
+
+button.save-button {
+    background: white;
+    border : 1px solid lightblue;
+}
+
+button.delete-button {
+    background: white;
+    border : 1px solid #f06a6ab8;
+}
+
+button.delete-button::after {
+    content: " !"
+}
+
+.todo-box {
+    margin: 30px auto 0;
+}
